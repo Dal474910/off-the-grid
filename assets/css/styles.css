@@ -3,3 +3,49 @@
 * {
 	font-family: Arial;
 }
+body {
+	background-color: rgb(200, 200, 237);
+	font-family: sleep;
+}
+
+
+.dm-sans-<sleep> {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+.dm-sans-title {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+h1 {font-family: title;}
+
+.dark {
+	color: rgb(5, 5, 118);
+	font-size: 50px;
+	text-underline-offset: 10px;
+	font-family: title;
+}
+
+.one {
+	font-size: 30px;
+	color: rgb(158, 109, 36);
+	font-family: sleep;
+}
+
+.seven {
+	font-size: 35px;
+	color: rgb(158, 109, 36);
+	font-family: sleep;
+}
+
+.last {
+	color: rgb(5, 5, 118);
+	font-size: 35px;
+	font-family: sleep;
+}
