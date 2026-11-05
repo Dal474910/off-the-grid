@@ -1,15 +1,11 @@
 /* styles.css */
-
-* {
-	font-family: Arial;
-}
 body {
 	background-color: rgb(200, 200, 237);
 	font-family: sleep;
 }
 
 
-.dm-sans-<sleep> {
+.sleep {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
@@ -17,19 +13,19 @@ body {
 }
 
 
-.dm-sans-title {
+.titlefont {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
 }
-h1 {font-family: title;}
+h1 {font-family: titlefont;}
 
 .dark {
 	color: rgb(5, 5, 118);
 	font-size: 50px;
 	text-underline-offset: 10px;
-	font-family: title;
+	font-family: titlefont;
 }
 
 .one {
@@ -42,6 +38,10 @@ h1 {font-family: title;}
 	font-size: 35px;
 	color: rgb(158, 109, 36);
 	font-family: sleep;
+	transform: rotate(30deg);
+	display: inline-block;
+	margin-top: 80px;
+	margin-bottom: 80px;
 }
 
 .last {
