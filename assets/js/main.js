@@ -11,16 +11,15 @@ function randomize() {
     divs.forEach(function(div){
         let scale = randomNumber(0.5, 1.5);
         let translateX = randomNumber(0, 50);
-        let translateY = randomNumber(0, 20);
-        let rotate = randomNumber(0, 360);
+        let translateY = randomNumber(5, 30);
+        let rotate = randomNumber(0, 120);
 
         if (Math.random() > 0.5) {
             scale = 1;
-            translateX = randomNumber (0, 80);
-            translateY = randomNumber (0, 80);
+            translateX = randomNumber (1, 60);
+            translateY = randomNumber (1, 60);
         }
-        div.computedStyleMap.transform = `scale(${scale}) translate(${translateX}%, $
-        {translateY}%) rotate(${rotate}deg)`;
+        div.computedStyleMap.transform = `scale(${scale}) translate(${translateX}%, ${translateY}%) rotate(${rotate}deg)`;
     });
 }
 
