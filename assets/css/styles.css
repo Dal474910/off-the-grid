@@ -3,10 +3,16 @@ body {
 	background-color: rgb(200, 200, 237);
 	font-family: sleep;
 }
+
+body {
+	margin: 3rem:
+	overflow: hidden;
+}
 .grid-container {
 	display: grid;
-	grid-template-rows: 2fr 2fr 2fr;
-}
+	grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+	gap: 3rem;
+	
 
 .sleep {
   font-family: "DM Sans", sans-serif;
@@ -40,14 +46,7 @@ h1 {
 	font-family: sleep;
 }
 
-.seven {
-	font-size: 35px;
-	color: rgb(158, 109, 36);
-	font-family: sleep;
-	transform: rotate(30deg);
-	display: inline-block;
-	margin-top: 230px;
-	margin-bottom: 80px;
+
 }
 
 .last {
@@ -56,3 +55,13 @@ h1 {
 	font-family: sleep;
 	margin-top: -300px;
 }
+
+.seven {
+	font-size: 35px;
+	color: rgb(158, 109, 36);
+	font-family: sleep;
+	transform: rotate(30deg);
+	display: inline-block;
+	margin-top: 13rem;
+	margin-bottom: 1rem;
+	
