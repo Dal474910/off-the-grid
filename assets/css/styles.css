@@ -3,7 +3,10 @@ body {
 	background-color: rgb(200, 200, 237);
 	font-family: sleep;
 }
-
+.grid-container {
+	display: grid;
+	grid-template-rows: 2fr 2fr 2fr;
+}
 
 .sleep {
   font-family: "DM Sans", sans-serif;
@@ -43,12 +46,13 @@ h1 {
 	font-family: sleep;
 	transform: rotate(30deg);
 	display: inline-block;
-	margin-top: 85px;
-	margin-bottom: 90px;
+	margin-top: 230px;
+	margin-bottom: 80px;
 }
 
 .last {
 	color: rgb(5, 5, 118);
 	font-size: 35px;
 	font-family: sleep;
+	margin-top: -300px;
 }
